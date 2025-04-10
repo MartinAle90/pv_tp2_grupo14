@@ -1,2 +1,4 @@
-console.log("Hello, World!");
-console.log("Esto es PV");
+let numA = 8;
+let numB = 10;
+let suma = numA + numB;
+console.log("Resultado de la suma: " + suma);
