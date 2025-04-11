@@ -1,4 +1,4 @@
-  
+
 calcularMayor(23, 20);  
 calcularMayor(15,30);   
 calcularMayor(12, 12);  
@@ -13,3 +13,4 @@ function calcularMayor(numero1, numero2) {
     }
   }
   
+
