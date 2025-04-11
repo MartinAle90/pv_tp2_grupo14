@@ -1,21 +1,16 @@
-//8.Declarar una función con nombre calcularMayor() y pasarle como parámetros (numero1,numero2). Dentro de la función mostrar un alert que diga cuál de los
-//números ingresados es mayor. En caso de ser iguales, tendrá que indicarlo a través de un alert también.
-//Invocar la función y enviar los argumentos con diferentes números para probar.
 
-// Primero definimos la función calcularMayor
-// luego la invocamos con diferentes números para probar
+calcularMayor(23, 20);  
+calcularMayor(15,30);   
+calcularMayor(12, 12);  
 
 function calcularMayor(numero1, numero2) {
     if (numero1 > numero2) {
-        alert("El número mayor es: " + numero1);
+      alert("El numero " + numero1 + " es mayor que " + numero2);
     } else if (numero2 > numero1) {
-        alert("El número mayor es: " + numero2);
+      alert("El numero " + numero2 + " es mayor que " + numero1);
     } else {
-        alert("Los números son iguales: " + numero1 + " y " + numero2);
+      alert("Ambos numeros son iguales: " + numero1);
     }
-}
+  }
+  
 
-// Ahora invocamos la función con diferentes números
-calcularMayor(10, 20); // Debería mostrar 20
-calcularMayor(30, 15); // Debería mostrar 30
-calcularMayor(5, 5);   // Debería mostrar que son iguales
