@@ -1,4 +1,3 @@
-let numA = 8;
-let numB = 10;
-let suma = numA + numB;
-console.log("Resultado de la suma: " + suma);
+let integrantes = "Gonzalo, Andrea, Lautaro, Martin, Leandro";
+
+console.log("Somos: " + integrantes + "y estamos aprendiendo JavaScript.");
