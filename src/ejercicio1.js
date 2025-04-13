@@ -1,4 +1,7 @@
-let numA = 8;
-let numB = 10;
-let suma = numA + numB;
-console.log("Resultado de la suma: " + suma);
+//1.Crear una variable denominada integrantes y asignarle la cadena de texto con los 
+//nombres de los integrantes del grupo. Mostrar por consola el siguiente texto:  
+//Somos (el valor de la variable) y estamos aprendiendo javascript.
+
+let integrantes = "Gonzalo, Andrea, Lautaro, Martin, Leandro";
+
+console.log("Somos: " + integrantes + "y estamos aprendiendo JavaScript.");
