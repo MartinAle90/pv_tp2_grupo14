@@ -1,3 +1,4 @@
+
 // Mostrar los primeros 10 números pares
 let mostrarPares = () => {
     // Inicializamos el contador
@@ -11,3 +12,4 @@ let mostrarPares = () => {
   
   // Llamamos a la función
   mostrarPares();
+
