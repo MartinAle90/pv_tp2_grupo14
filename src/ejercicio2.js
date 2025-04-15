@@ -1,14 +1,15 @@
-//var nombre="Martin Daza"; //Antiguamente se usaba var para declarar variables, ahora se recomienda usar let o const
-let nombre="Martin Daza";
-let edad=getRandomInt(100);
-console.log("Hola " + nombre + " tienes " + edad + " años");
-if (edad>=18){
-    console.log(nombre+" con " +edad+" años es mayor de edad");
-}
-else{
-    console.log(nombre+" con " +edad+" años es menor de edad");
-}
 
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
+// Mostrar los primeros 10 números pares
+let mostrarPares = () => {
+    // Inicializamos el contador
+    let cont = 0;
+    // Recorremos los primeros 10 números y mostramos los pares
+    while (cont < 10) {
+      console.log(cont * 2);
+      cont++;
+    }
+  };
+  
+  // Llamamos a la función
+  mostrarPares();
+
