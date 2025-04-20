@@ -1,0 +1,37 @@
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: beige;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: yellowgreen;
+    color: white;
+    border: green;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .options {
+    margin-bottom: 40px;
+  }
+  
+  label {
+    margin: 0 20px;
+    font-size: 30px;
+  }
+  
+  #result {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(1, 122, 86);
+  }
+  
